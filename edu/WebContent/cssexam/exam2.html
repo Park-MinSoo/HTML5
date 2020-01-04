@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS 학습</title>
+<!--  전역적 방법 !!!  head 위에 style설정을 넣는다.-->
+<style>
+	a{
+	text-decoration:none	
+	}
+	#t1:hover {
+	font-weight : bold;
+	color:red;	
+	}
+	.t2:hover{	/* 0.0(완전투명) ~ 1.0(완전불투명) */
+	  opacity : 0.3
+	}
+	h1, a{
+		border : 1px solid blue; /* 테투리선을 파란색으로 그려라 */
+	}
+	span {
+	color :#9900ff;
+	}
+</style>
+</head>
+<body>
+<h1>CSS 선택자 <span>학습</span></h1>
+<hr>
+
+<!-- 인라인 방법!!!
+<a href="http://www.w3schools.com/" style="text-decoration:none">W3Schools</a><br>
+<a href="http://www.html5test.com/" style="text-decoration:none">HTML5 테스트</a><br>
+<a href="http://www.caniuse.com/" style="text-decoration:none">HTML과 CSS의 지원여부 체크</a>ㅋㅋㅋ<br>
+-->
+<!--  전역적 방법 !!! -->
+<a href="http://www.w3schools.com/">W3Schools</a><br>
+<a href="http://www.html5test.com/" id="t1">HTML5 테스트</a><br>
+<a href="http://www.caniuse.com/">HTML과 CSS의 지원여부 체크</a>ㅋㅋㅋ<br>
+<img src="../images/totoro.png"width="200" class ="t2">
+<img src="/edu/images/totoro.png"width="200" class ="t2">
+<img src="http://localhost:8000/edu/images/totoro.png"width="200">
+</body>
+</html>	
