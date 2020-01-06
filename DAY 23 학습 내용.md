@@ -135,3 +135,13 @@
     - background : linear-gradient(direction, color1, color2, ..., color3);
   - opactiy 속성
     - 칼라나 이미지의 투명도를 설정하는 속성으로 0.0 ~ 1.0 사이의 값을 설정한다.
+
+
+
+## [ 반응형 웹 ]
+
+- display 속성 (을 통하여 보였다 안보였다 하게 만들어 줄 수 있다.)
+  - none : html 부분에는 있지만 화면에서는 사라지게 하는 것.
+  - block : 보여지게 하고싶은 컨텐트가 블록 스타일 태그
+  - inline : 보여지게 하고 싶은 컨텐트가 인라인 스타일 태그
+  - inline - block : 인라인과 블록 성격 모두 갖게 할때 사용
