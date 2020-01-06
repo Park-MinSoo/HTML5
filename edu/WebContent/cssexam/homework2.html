@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>박민수 소개하는 페이지</title>
+<style>
+	* {
+		margin : 0;
+	}
+	header {
+		height : 100px;
+		margin : 5px auto;
+		text-align : center;
+		background-image : linear-gradient(135deg, yellow, pink);
+		padding : 30px;
+	}
+	footer {
+		margin : center;
+		text-align : center;
+		color : white;
+		background-color : black;
+		height : 50px;
+		padding : 25px;
+	}
+	section {
+		margin : 5px 5px;		
+	}
+	article {
+		width : 75%;
+		border : 2px dotted purple;
+		border-radius : 25px;
+		margin : auto;
+		padding : 15px;
+	}
+	nav {
+		margin : auto;
+		padding : 20px;
+	}
+	aside {
+		text-align : center;
+		margin : auto;		
+	}
+	h1 {
+		text-align : center;
+		color : #990099;
+		text-shadow : 5px 5px 2px white;		
+	}
+	a{
+		margin : auto;
+		text-align : center;
+		text-decoration:none	
+	}
+	a:hover{
+		font-weight : bold;
+	}
+	h2{
+		margin : center;
+	}
+	#title1{
+		color : purple;
+	}
+	#title2{
+		color : #99ff33;
+	}
+	table, th, td {
+		border : 1px solid green;
+		border-collapse : collapse;
+	}
+	th {
+		background-color : lime;
+	}
+	#title3{
+		color : #6666ff;
+	}
+	span{
+		color : purple;
+	}
+	#img1:hover{
+		opacity : 0.5;
+	}
+	#img1{
+		text-align : center;
+		margin : auto;
+		width:100%
+	}
+	#fig{
+		text-align : center;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<h1>HTML5 학습</h1>
+			<nav>
+			<div>
+				<a href="http://www.w3c.org">W3C</a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://www.w3schools.com">W3SCHOOLS </a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://www.jQuery.com">jQuery </a><br>
+			</div>
+			</nav>
+	</header>
+	<section>
+		<article>
+		<h2 id='title1'>나의 소개</h2>
+		<ul>
+			<li>이름 : 박 민수</li>
+			<li>별명 : 하디</li>
+			<li>관심기술 : 빅데이터</li>
+			<li>취미 : 보드게임</li>
+		</ul>
+		</article>
+		<article>
+			<h2 id='title2'>올해 재미있게 읽은 책</h2>
+			<table border="1">
+				<tr><th>제목</th><th>장르</th></tr>
+				<tr><td>봉제인형 살인사건</td><td>추리</td></tr>
+				<tr><td>소피의 세계</td><td>철학</td></tr>
+				<tr><td>자바의 정석</td><td>학습</td></tr>
+			</table>
+		</article>
+		<article>
+			<h2 id='title3'>자랑하고 싶은 <span>우리동네</span>의 아름다운 곳</h2>
+			<figure>
+  			<figcaption>북한산 국립공원은 세계적으로 드문 도심 속의 자연공원으로,수려한 자연경관과 다양한 문화자원이 있어 우리나라의 15번째 국립공원으로 지정되었다.</figcaption>
+  			<div id='img1'>
+  			<img src="https://dbscthumb-phinf.pstatic.net/3993_000_1/20150701110206773_6F8NA8ENL.jpg/ce24_6_i3.jpg?type=w690_fst_n&wm=Y" alt="north_mt">
+  			</div>
+  			<figcaption id='fig'>서울의 은평구에 있는 북한산</figcaption>
+			</figure>
+		</article>
+	</section>
+	<aside>
+  		<video src="cat1.mp4" width="720" height="400" controls>
+  		</video> 
+	</aside>
+	<footer>
+		<em>이 문서는 박 민수에 의해 HTML5 기술을 사용하여 2020년 1월 3일에 작성하였습니다. (ver1.0)</em>
+	</footer>
+</body>
+</html>
